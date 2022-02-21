@@ -52,7 +52,7 @@
         top: 0;
         left: 0;
         background-color: #fff;
-        height: 120px;
+        height: 100px;
         width: 100%;
 
         img{
@@ -71,7 +71,7 @@
 
             a{
                 text-decoration: none;
-                padding: 50px 0;
+                padding: 40px 0;
                 color: $primaryColor;
 
                 &.current{

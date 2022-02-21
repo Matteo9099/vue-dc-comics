@@ -1,7 +1,7 @@
 <template>
     
     <section>
-        <div class="container">
+        <div class="debug">
           <p> --> Content goes here </p>
         </div>
     </section>
@@ -18,9 +18,12 @@
 
 <style lang="scss" scoped>
 
-    .container{
-        margin-top: 130px;
+    @import "../assets/style/general.scss";
+
+    section{
+        margin-top: 105px;
         background-color: #000;
+        
 
         p{
             color:#fff;

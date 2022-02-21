@@ -23,4 +23,6 @@
 
 <style lang="scss" scoped>
 
+    @import "../assets/style/general.scss";
+
 </style>

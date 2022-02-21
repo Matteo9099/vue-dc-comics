@@ -43,6 +43,10 @@
                 padding: 15px;
                 text-decoration: none;
                 border: 2px solid $secondaryColor;
+
+                &:hover{
+                    background-color: $secondaryColor;
+                }
             }
         }
     }
