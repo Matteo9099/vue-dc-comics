@@ -73,6 +73,7 @@
                 text-decoration: none;
                 padding: 37px 0;
                 color: $primaryColor;
+                font-family: fantasy;
 
                 &.current{
                     color: $secondaryColor;
