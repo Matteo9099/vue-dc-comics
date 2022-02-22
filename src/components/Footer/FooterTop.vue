@@ -91,6 +91,8 @@
 
         nav{
             display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
             margin: 25px 0;
             padding-right: 100px;
 
@@ -121,6 +123,8 @@
 
         .container{
             display: flex;
+            justify-content: space-between;
+            max-height: 400px;
         }
 
         .logo_dc_bg{
