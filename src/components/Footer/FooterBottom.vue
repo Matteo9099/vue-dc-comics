@@ -5,10 +5,32 @@
             <div id="social">
                 <h3>FOLLOW US</h3>
                 <ul>
-                    <li class="debug"></li>
-                    <li class="debug"></li>
-                    <li class="debug"></li>
-                    <li class="debug"></li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/img/footer-facebook.png" alt="Logo Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/img/footer-twitter.png" alt="Logo twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/img/footer-youtube.png" alt="Logo youtube">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/img/footer-pinterest.png" alt="Logo pinterest">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/img/footer-periscope.png" alt="Logo periscope">
+                        </a>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -57,6 +79,7 @@
 
         h3{
             color: $secondaryColor;
+            margin-right: 5px;
         }
 
         ul{
@@ -69,12 +92,6 @@
             margin: 0 10px;
         }
 
-        .debug{
-            height: 30px;
-            width: 30px;
-            border-radius: 50%;
-            background-color: blue;
-        }
     }
 
 </style>

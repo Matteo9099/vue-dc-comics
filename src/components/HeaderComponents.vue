@@ -71,7 +71,7 @@
 
             a{
                 text-decoration: none;
-                padding: 40px 0;
+                padding: 37px 0;
                 color: $primaryColor;
 
                 &.current{

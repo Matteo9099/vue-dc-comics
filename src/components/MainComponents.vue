@@ -21,7 +21,6 @@
     @import "../assets/style/general.scss";
 
     section{
-        margin-top: 105px;
         background-color: #000;
         
 
