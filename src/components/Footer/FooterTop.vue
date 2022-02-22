@@ -115,6 +115,10 @@
                             text-decoration: none;
                             font-size: 0.8rem;
                             color: rgb(189, 184, 184);
+
+                            &:hover{
+                                text-decoration: underline;
+                            }
                         }
                     }
                 }
