@@ -4,6 +4,7 @@
     <HeaderComponents />
     <JumbotronComponents />
     <MainComponents />
+    <MainNavMenu />
     <FooterComponents />
 
   </div>
@@ -14,6 +15,7 @@ import HeaderComponents from './components/HeaderComponents.vue'
 import MainComponents from './components/MainComponents.vue'
 import FooterComponents from './components/FooterComponents.vue'
 import JumbotronComponents from './components/JumbotronComponents.vue'
+import MainNavMenu from './components/MainNavMenu.vue'
 
 export default {
   name: 'App',
@@ -21,7 +23,8 @@ export default {
     HeaderComponents,
     MainComponents,
     FooterComponents,
-    JumbotronComponents
+    JumbotronComponents,
+    MainNavMenu
   }
 }
 </script>
