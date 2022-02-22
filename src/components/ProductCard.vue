@@ -20,10 +20,18 @@
 
 <style lang="scss" scoped>
 
+    @import "../assets/style/variables.scss";
+
     .card{
         display: inline-block;
         width: calc(100% / 6 - 20px);
         margin: 25px 10px;
+        transition: 0.3s;
+
+        &:hover{
+            box-shadow: 2px 2px 5px $secondaryColor;
+            transform: scale(0.9);
+        }
 
         a{
             color: #fff;
