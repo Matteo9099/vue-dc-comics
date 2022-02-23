@@ -12,7 +12,7 @@
 
 
 <style lang="scss" scoped>
-
+    // importo regole
     @import "../assets/style/general.scss";
 
     .jumbotron{

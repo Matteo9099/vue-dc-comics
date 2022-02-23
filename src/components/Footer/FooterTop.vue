@@ -2,7 +2,7 @@
     
     <section id="footer_top">
         <div class="container">
-            
+            <!-- Creo delle sezioni con lista dei link-->
             <nav>
                 <section v-for="(footer_nav, index) in footer_navs" :key="index">
                     <!-- titolo dinamico -->
@@ -83,6 +83,7 @@
 
 
 <style lang="scss" scoped>
+    // importo regole
     @import "../../assets/style/general.scss";
 
     #footer_top{

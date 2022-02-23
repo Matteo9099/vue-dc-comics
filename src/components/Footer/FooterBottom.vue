@@ -1,9 +1,13 @@
 <template>
     <div id="footer-bottom">
+        <!-- Containeer footer bottom -->
         <div class="container d-flex d-center d-justify-between">
+            <!-- Parte sx container con pulsante -->
             <div id="sign-up"><a href="#">SIGN-UP NOW!</a></div>
+            <!-- Parte dx container con social -->
             <div id="social">
                 <h3>FOLLOW US</h3>
+                <!-- Lista Social -->
                 <ul>
                     <li>
                         <a href="#">
@@ -46,7 +50,7 @@
 
 
 <style lang="scss" scoped>
-
+    // Importo regole
     @import "../../assets/style/general.scss";
     @import "../../assets/style/utils.scss";
     @import "../../assets/style/variables.scss";

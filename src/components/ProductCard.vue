@@ -1,5 +1,5 @@
 <template>
-  
+    <!-- Creo card con img e titolo -->
     <div class="card">
         <a href="#">
             <img class="card-thumb" :src="product.thumb" alt="">

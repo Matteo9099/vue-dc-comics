@@ -4,7 +4,7 @@
     <header>
         <div class="container">
             <a href="#"><img src="../assets/img/dc-logo.png" alt="DC logo"></a>
-           
+                <!-- Creazione lista menu -->
             <nav>
                 <ul>
                     <li v-for="(link, index) in links" :key="index">
@@ -43,7 +43,7 @@
 
 
 <style lang="scss" scoped>
-
+    // importo regole
     @import "../assets/style/general.scss";
     @import "../assets/style/variables.scss";
 

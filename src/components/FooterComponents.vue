@@ -8,6 +8,7 @@
 
 
 <script>
+    // importo FooterTop e FooterBottom nel Footer principale
     import FooterTop from './Footer/FooterTop.vue';
     import FooterBottom from './Footer/FooterBottom.vue';
     

@@ -1,13 +1,16 @@
 <template>
     
     <section>
+        <!-- Titolo principale card -->
         <div class="title-main container">
             <h2>current series</h2>
         </div>
         <div class="container">
+            <!-- richiamo il componente ProductCard -->
             <ProductCard 
                 v-for="(product, index) in products" :key="index" :product="product"
             />
+            <!-- pulsante load more -->
             <div id="load-more">load more</div>
         </div>
     </section>
@@ -16,7 +19,8 @@
 
 
 <script>
-import ProductCard from './ProductCard.vue';
+    // importo componente ProductCard
+    import ProductCard from './ProductCard.vue';
 
     export default {
         name: 'MainComponents',
@@ -25,6 +29,7 @@ import ProductCard from './ProductCard.vue';
         },
         data() {
             return {
+                // Creo array con dettagli card
                 products: [
                     {
                         "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
